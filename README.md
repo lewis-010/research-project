@@ -14,11 +14,11 @@ Required packages:
 - The first analysis *yearly generation.ipynb* focused on the yearly trends of electical generation from fossil fuels, major renewables and PHES. 
 - The half-hourly timeseries data was first aggregated by year and then passed through the matplotlib.pyplot package to generate suitable figures.
 
-<img src="PNGs/Coal & Gas yearly generation.png" style="width: 330px"/>
-<img src="PNGs/PHES yearly generation.png" style="width: 328px">
+<img src="PNGs/Coal & Gas yearly generation.png" style="width: 300px"/>
+<img src="PNGs/PHES yearly generation.png" style="width: 300px">
 
 <div style="text-align: center;">
-<img src="PNGs/Solar & Wind yearly generation.png" style="width: 330px">
+<img src="PNGs/Solar & Wind yearly generation.png" style="width: 300px">
 </div>
 <br/><br/>
 
