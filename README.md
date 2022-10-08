@@ -3,7 +3,7 @@ This project aimed to determine if the operation and flexibility of pumped hydro
 <br/><br/>
 
 >## Timeseries Analysis
-The methodology for this project consisted of a literature review and an analysis of a timeseries dataset that represented Great Britain's real-time electrical demand from 2008 to 2021. This GitHub repo will cover the analysis of the [dataset](https://zenodo.org/record/7140904). (note: *espeni.csv* dataset available on Zenodo adjusted to *espeni v2.csv*; day, month & year columns added)  
+The methodology for this project consisted of a literature review and an analysis of a timeseries dataset that represented Great Britain's real-time electrical demand from 2008 to 2021. This GitHub repo will cover the analysis of the [dataset](https://zenodo.org/record/7140904).
 
 Required packages:
 - pandas
@@ -13,6 +13,7 @@ Required packages:
 >## Yearly Trends
 - The first analysis *yearly generation.ipynb* focused on the yearly trends of electical generation from fossil fuels, major renewables and PHES. 
 - The half-hourly timeseries data was first aggregated by year and then passed through the matplotlib.pyplot package to generate suitable figures.
+- This gave an overall perspective on the recent long-term trends of the major electrical outputs in Great Britain.
 
 <p align="center"> 
 <img src="PNGs/Coal & Gas yearly generation.png" style="width: 330px"/> <img src="PNGs/PHES yearly generation.png" style="width: 330px"> </p>
@@ -22,6 +23,6 @@ Required packages:
 </p>
 <br/><br/>
 
->## Monthly Generation Comparisons
-
-
+>## Daily Output Trends
+- The second analysis was focused on changes in the daily output trends of Great Britain's PHES facilities. 
+- Aggregating the half-hourly data by year and day allowed for 
