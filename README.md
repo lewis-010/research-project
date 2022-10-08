@@ -13,7 +13,8 @@ Required packages:
 >## Yearly Trends
 - The first analysis *yearly generation.ipynb* focused on the yearly trends of electical generation from fossil fuels, major renewables and PHES. 
 - The half-hourly timeseries data was first aggregated by year and then passed through the matplotlib.pyplot package to generate suitable figures.
-![](Coal%20%26%20Gas%20yearly%20generation.png)
+
+<img src="Coal & Gas yearly generation.png" style="width: 300px;"/>
 <br/><br/>
 
 >## Monthly Generation Comparisons
