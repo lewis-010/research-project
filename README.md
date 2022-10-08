@@ -17,9 +17,9 @@ Required packages:
 <div style="text-align: center;">
 <img src="PNGs/Coal & Gas yearly generation.png" style="width: 300px"/> <img src="PNGs/PHES yearly generation.png" style="width: 300px"> <div>
 
-<div style="text-align: center;">
-<img src="PNGs/Solar & Wind yearly generation.png" style="width: 300px">
-</div>
+<p align="center">   
+<img src="PNGs/Solar & Wind yearly generation.png" style="width: 300px" />
+</p>
 <br/><br/>
 
 >## Monthly Generation Comparisons
