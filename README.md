@@ -15,10 +15,10 @@ Required packages:
 - The half-hourly timeseries data was first aggregated by year and then passed through the matplotlib.pyplot package to generate suitable figures.
 
 <p align="center"> 
-<img src="PNGs/Coal & Gas yearly generation.png" style="width: 300px"/> <img src="PNGs/PHES yearly generation.png" style="width: 300px"> </p>
+<img src="PNGs/Coal & Gas yearly generation.png" style="width: 330px"/> <img src="PNGs/PHES yearly generation.png" style="width: 330px"> </p>
 
 <p align="center">   
-<img src="PNGs/Solar & Wind yearly generation.png" style="width: 300px" />
+<img src="PNGs/Solar & Wind yearly generation.png" style="width: 330px" />
 </p>
 <br/><br/>
 
