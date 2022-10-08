@@ -3,6 +3,12 @@ This project aimed to determine if the operation and flexibility of pumped hydro
 <br/><br/>
 
 >## Timeseries Analysis
-The methodology for this project consisted of a literature review and an analysis of a timeseries dataset that represented Great Britain's real-time electrical demand from 2008 to 2021. This GitHub repo will cover the analysis of the [dataset](https://zenodo.org/record/7140904).  
+The methodology for this project consisted of a literature review and an analysis of a timeseries dataset that represented Great Britain's real-time electrical demand from 2008 to 2021. This GitHub repo will cover the analysis of the [dataset](https://zenodo.org/record/7140904). (note: *espeni.csv* dataset available on Zenodo adjusted to *espeni v2.csv*; day, month & year columns added)  
 
+Required packages:
+- pandas
+- matplotlib
+<br/><br/>
+
+>## 
 
