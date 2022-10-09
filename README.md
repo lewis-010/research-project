@@ -33,8 +33,8 @@ Required packages:
 - These were the basis for using a multi-index format for the dataframe, allwoing for the comparison of the same months over various years in one figure.
 
 <p align="center">
-<img src="PNGs/PHES Generation for January.png" style="width: 330px"> <img src="PNGs/PHES Generation for April.png" style="width: 330px"> </p>
+<img src="PNGs/PHES Generation for January.png" style="width: 330px"/> <img src="PNGs/PHES Generation for April.png" style="width: 330px"/> </p>
 
 <p align="center">
-<img src="PNGs/PHES Generation for December.png" style="width: 330px">
+<img src="PNGs/PHES Generation for December.png" style="width: 330px"/>
 </p>
