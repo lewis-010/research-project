@@ -48,5 +48,5 @@ Required packages:
 - (note - *espeni.csv* dataset replaced with *espeniWithNegPSValues.ztsd.parquet*. This included negative values for PHES when it removes/stores energy from the grid.)
 
 <p align="center">
-<img src="PNGs/Flexiblity of major power types.PNG" style="width: 330px">
+<img src="PNGs/Flexibility of major power types.png" style="width: 330px">
 </p>
