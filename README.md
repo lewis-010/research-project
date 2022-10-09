@@ -5,6 +5,8 @@ This project aimed to determine if the operation and flexibility of pumped hydro
 >## Timeseries Analysis
 The methodology for this project consisted of a literature review and an analysis of a timeseries dataset that represented Great Britain's real-time electrical demand from 2008 to 2021. This GitHub repo will cover the analysis of the [dataset](https://zenodo.org/record/7140904).
 
+Discussion of the literature review and results is available in the *Research project.pdf*.
+
 Required packages:
 - pandas
 - matplotlib
@@ -27,7 +29,8 @@ Required packages:
 >## Daily Output Trends
 - The second analysis was focused on changes in the daily output trends of Great Britain's PHES facilities.
 - This was done to identify changes in output patterns on a year to year basis by comparing the same month across various years. 
-- Using a multi-index format of YEAR and DAY allowed these comparisons to be made.
+- Columns for both YEAR and DAY were extracted from ELEXM_utc date column. 
+- These were the basis for using a multi-index format for the dataframe, allwoing for the comparison of the same months over various years in one figure.
 
 <p align="center">
 <img src="PNGs/PHES Generation for January.png" style="width: 330px"> <img src="PNGs/PHES Generation for April.png" style="width: 330px"> </p>
@@ -35,4 +38,3 @@ Required packages:
 <p align="center">
 <img src="PNGs/PHES Generation for December.png" style="width: 330px">
 </p>
-
