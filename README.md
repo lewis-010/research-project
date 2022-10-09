@@ -38,3 +38,15 @@ Required packages:
 <p align="center">
 <img src="PNGs/PHES generation for December.png" style="width: 330px">
 </p>
+<br/><br>
+
+>## Flexibility Analysis
+- The final analysis aimed to identify trends in flexibility of the major power types.
+- No formal method was found in literature or research so a novel process used to calculate flexiblity metrics for various electrical genration types.
+- Taking the difference between set time intervals across a generation output line and totalling these values will give a value for how much that power type has varied over a certain time period.
+- Doing this for all power systems enabled the calculation for how much flexibility each power type provides to the grid.
+- (note - *espeni.csv* dataset replaced with *espeniWithNegPSValues.ztsd.parquet*. This included negative values for PHES when it removes/stores energy from the grid.)
+
+<p align="center">
+<img src="PNGs/Flexiblity of major power types.PNG" style="width: 330px">
+</p>
