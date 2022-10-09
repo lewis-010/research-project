@@ -11,8 +11,9 @@ Required packages:
 <br/><br/>
 
 >## Yearly Trends
-- The first analysis *yearly generation.ipynb* focused on the yearly trends of electical generation from fossil fuels, major renewables and PHES. 
-- The half-hourly timeseries data was first aggregated by year and then passed through the matplotlib.pyplot package to generate suitable figures.
+- The first analysis *yearly generation.ipynb* focused on the yearly trends of electical generation from fossil fuels, major renewables and PHES.
+- A column for YEAR was extracted from the utc_date column, this was then used to aggregate all data by the year. 
+- It was then passed through the matplotlib.pyplot package to generate suitable figures.
 - This gave an overall perspective on the recent long-term trends of the major electrical outputs in Great Britain.
 
 <p align="center"> 
@@ -24,5 +25,7 @@ Required packages:
 <br/><br/>
 
 >## Daily Output Trends
-- The second analysis was focused on changes in the daily output trends of Great Britain's PHES facilities. 
-- Aggregating the half-hourly data by year and day allowed for 
+- The second analysis was focused on changes in the daily output trends of Great Britain's PHES facilities.
+- This was done to identify changes in output patterns on a year to year basis by comparing the same month across various years. 
+- Aggregating the half-hourly data by year and day allowed for these comparions to be made.
+
