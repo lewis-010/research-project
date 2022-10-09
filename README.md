@@ -10,6 +10,7 @@ Discussion of the literature review and results is available in the *Research pr
 Required packages:
 - pandas
 - matplotlib
+- pyarrow
 <br/><br>
 
 ## Yearly Trends
