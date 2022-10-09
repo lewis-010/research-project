@@ -1,8 +1,8 @@
-># Analysis of Great Britain's Electrical Demand
+# Analysis of Great Britain's Electrical Demand
 This project aimed to determine if the operation and flexibility of pumped hydro energy storage (PHES) in Great Britain had been significantly impacted by the evolving energy sector. Energy storage is a crucial infrastructure of Great Brtain's electrical network, of which PHES makes up more 90% of installed capacity. Understanding how the usage of this technology will change in the coming years is critical to ensure it can efficiently aid the country in its net-zero ambitions.
 <br/><br>
 
->## Timeseries Analysis
+## Timeseries Analysis
 The methodology for this project consisted of a literature review and an analysis of a timeseries dataset that represented Great Britain's real-time electrical demand from 2008 to 2021. This GitHub repo will cover the analysis of the [dataset](https://zenodo.org/record/7140904).
 
 Discussion of the literature review and results is available in the *Research project.pdf*.
@@ -12,7 +12,7 @@ Required packages:
 - matplotlib
 <br/><br>
 
->## Yearly Trends
+## Yearly Trends
 - The first analysis *yearly generation.ipynb* focused on the yearly trends of electical generation from fossil fuels, major renewables and PHES.
 - A column for YEAR was extracted from the utc_date column, this was then used to aggregate all data by the year. 
 - It was then passed through the matplotlib.pyplot package to generate suitable figures.
@@ -26,7 +26,7 @@ Required packages:
 </p>
 <br/><br>
 
->## Daily Output Trends
+## Daily Output Trends
 - The second analysis was focused on changes in the daily output trends of Great Britain's PHES facilities.
 - This was done to identify changes in output patterns on a year to year basis by comparing the same month across various years. 
 - Columns for both YEAR and DAY were extracted from ELEXM_utc date column. 
@@ -40,7 +40,7 @@ Required packages:
 </p>
 <br/><br>
 
->## Flexibility Analysis
+## Flexibility Analysis
 - The final analysis aimed to identify trends in flexibility of the major power types.
 - No formal method was found in literature or research so a novel process used to calculate flexiblity metrics for various electrical genration types.
 - Taking the difference between set time intervals across a generation output line and totalling these values will give a value for how much that power type has varied over a certain time period.
